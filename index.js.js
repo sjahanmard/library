@@ -14,4 +14,4 @@ const useForm = () => {
   return [state, handleChange, handleSubmit];
 };
 
-export default useForm;
+module.exports.useForm = useForm;
